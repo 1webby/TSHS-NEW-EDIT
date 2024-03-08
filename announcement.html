@@ -45,6 +45,18 @@
       bottom: 0;
       width: 100%;
     }
+
+    .book-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .book {
+      width: calc(50% - 10px); /* Calculate width to fit two boxes with margin */
+      padding: 10px;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 <body>
@@ -58,24 +70,24 @@
   <p>TEXT HERE </p>
 </section>
 
-<section>
-  <h2>TITLE 2</h2>
-  <!-- Add your photos with appropriate captions -->
-  <img src="photo1.jpg" alt="Photo 1">
-  <p>Caption for Photo 1.</p>
+<section class="book-container">
+  <div class="book">
+    <img src="reg.jpg" alt="Book 1">
+  </div>
+  <div class="book">
+    <h2>REGISTER NOW</h2>
+    <p>To prepare for the new school year, Taysan Senior High School is joining the nationwide Early Registration for the 
+        2024 – 2025 academic year. This is for students entering Grade 11. Registration will be open from January 27 to 
+        February 23, 2024.</p>
 
-  <img src="photo2.jpg" alt="Photo 2">
-  <p>Caption for Photo 2.</p>
-
-  <!-- Add more photos and captions as needed -->
-</section>
-
-<section>
-  <h2>Main Content</h2>
-  <p>Your main text content goes here.Your main text content goes here.
-    Your main text content goes here.Your main text content goes here.
-    Your main text content goes here.Your main text content goes here.
-    Your main text content goes here.</p>
+        <P>If you're entering Grade 12 from a public school, you're already pre-registered and don't need to do anything.</P>
+        
+    <P> To register for Grade 11,</P>
+    <a href="http://tinyurl.com/tshsearlyreg2024-2025" target="_blank">Click and Register here! Thank you!</a>
+        
+<P>You can also register in person at Taysan Senior High School, Mahanadiong, Taysan, Batangas. Don't forget to
+         bring a copy of your birth certificate.</p>
+  </div>
 </section>
 
 <footer>
