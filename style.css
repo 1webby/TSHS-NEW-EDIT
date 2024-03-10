@@ -132,7 +132,7 @@ html::-webkit-scrollbar-thumb{
 }
 .home .homeContent .home-btn {
     height: 3rem;
-    text-align: left; /* Align button to the left */
+    text-align: right; /* Align button to the right */
     margin-top: 20px; /* Adjust as needed to lower the button */
 }
 
