@@ -131,21 +131,18 @@ html::-webkit-scrollbar-thumb{
     margin-bottom: 2rem;
 }
 
-.home .homeContent {
-    text-align: center; /* Align button to the center */
-}
-
 .home .homeContent .home-btn {
     height: 3rem;
+    text-align: right; /* Align button to the right */
     margin-top: 30px; /* Adjust as needed to lower the button */
 }
 
 .home .homeContent .home-btn button {
-    font-size: 1.8rem;
+    font-size: 2rem; /* Increase the font size */
     background-color: var(--black);
     color: var(--white);
     border-radius: .7rem;
-    padding: .7rem 2.4rem;
+    padding: .7rem 2.8rem; /* Increase the padding */
     cursor: pointer;
 }
 
