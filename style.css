@@ -111,7 +111,7 @@ html::-webkit-scrollbar-thumb{
     background-position: center center;
 }
 .home .homeContent{
-    width: 50%;
+    width: 60%;
     float: left;
     text-align: center;
     padding: 4rem;
@@ -121,7 +121,7 @@ html::-webkit-scrollbar-thumb{
     font-weight: bolder;
     margin-bottom: 2rem;
     line-height: 7rem;
-    color: var(--black);
+    color: var(--white);
     text-shadow: var(--box-shadow);
      margin: 0 auto; /* Center the h2 element */
 }
