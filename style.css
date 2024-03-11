@@ -106,15 +106,16 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/back.png) no-repeat;
+    background-image: url('biboy(2).jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-.home .homeContent{
-    width: 60%;
-    float: left;
-    text-align: center;
-    padding: 4rem;
+
+@media (max-width: 768px) {
+    .home {
+        background-image: url('biboy(2).jpg');
+    }
 }
 .home .homeContent h2{
     font-size: 7rem;
