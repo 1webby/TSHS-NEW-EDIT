@@ -102,22 +102,24 @@ html::-webkit-scrollbar-thumb{
 }
 
 .home {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background-image: url('biboy3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 0;
-    margin: 0;
+    padding: 0; /* tanggalin ang padding */
+    margin: 0; /* tanggalin ang margin */
 }
 
 @media (max-width: 768px) {
     .home {
-        padding-top: 0;
-        padding-bottom: 0;
+        background-size: cover; /* Panatilihin ang aspect ratio ng image */
+        background-attachment: fixed; /* Ito ay para hindi mag-scroll ang image */
+        padding-top: 0; /* tanggalin ang spacing sa itaas */
+        padding-bottom: 0; /* tanggalin ang spacing sa ibaba */
     }
-
 }
 .home .homeContent h2{
     font-size: 7rem;
