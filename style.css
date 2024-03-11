@@ -108,12 +108,17 @@ html::-webkit-scrollbar-thumb{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 0; /* tanggalin ang padding */
+    margin: 0; /* tanggalin ang margin */
 }
 
 @media (max-width: 768px) {
     .home {
         background-size: 100% auto; /* Para hindi mag-scale ang image sa mobile view */
+        padding-top: 0; /* tanggalin ang spacing sa itaas */
+        padding-bottom: 0; /* tanggalin ang spacing sa ibaba */
     }
+
 }
 .home .homeContent h2{
     font-size: 7rem;
