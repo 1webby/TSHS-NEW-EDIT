@@ -121,7 +121,7 @@ html::-webkit-scrollbar-thumb{
     font-weight: bolder;
     margin-bottom: 2rem;
     line-height: 7rem;
-    color: var(--black);
+    color: var(--white);
     text-shadow: var(--box-shadow);
 }
 .home .homeContent p{
