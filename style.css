@@ -125,6 +125,9 @@ html::-webkit-scrollbar-thumb{
     text-shadow: var(--box-shadow);
      margin: 0 auto; /* Center the h2 element */
 }
+.home .homeContent h2 span {
+    text-transform: lowercase;
+}
 .home .homeContent p {
     font-size: 1.8rem;
     line-height: 2;
