@@ -106,15 +106,17 @@ html::-webkit-scrollbar-thumb{
     display: flex;
     align-items: center;
     background-image: url('biboy3.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-@media (max-width: 768px) {
-    .home {
-        background-image: url('biboy3.jpg');
-    }
+.home .homeContent {
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding: 4rem; 
+}
+
 }
 .home .homeContent h2{
     font-size: 7rem;
