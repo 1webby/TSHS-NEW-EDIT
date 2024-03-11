@@ -100,8 +100,6 @@ html::-webkit-scrollbar-thumb{
 #menu-bar{
     display: none;
 }
-
-
 .home {
     min-height: 100vh;
     display: flex;
@@ -114,7 +112,7 @@ html::-webkit-scrollbar-thumb{
 
 @media (max-width: 768px) {
     .home {
-        background-image: url('biboy3.jpg');
+        background-size: 100% auto; /* Para hindi mag-scale ang image sa mobile view */
     }
 }
 .home .homeContent h2{
