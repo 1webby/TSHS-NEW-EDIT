@@ -100,6 +100,7 @@ html::-webkit-scrollbar-thumb{
 #menu-bar{
     display: none;
 }
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -114,7 +115,8 @@ html::-webkit-scrollbar-thumb{
 
 @media (max-width: 768px) {
     .home {
-        background-size: 100% auto; /* Para hindi mag-scale ang image sa mobile view */
+        background-size: cover; /* Panatilihin ang aspect ratio ng image */
+        background-attachment: fixed; /* Ito ay para hindi mag-scroll ang image */
         padding-top: 0; /* tanggalin ang spacing sa itaas */
         padding-bottom: 0; /* tanggalin ang spacing sa ibaba */
     }
